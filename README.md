@@ -1,6 +1,6 @@
 # Lightly
 
-A dead-simple scratchpad for macOS. One file, one window, no ceremony.
+A dead-simple scratchpad/note-taking app for macOS. One file, one window, no ceremony.
 
 <p align="center">
   <a href="https://github.com/neerajsingh0101/lightly/releases/latest/download/lightly-macos.dmg">
