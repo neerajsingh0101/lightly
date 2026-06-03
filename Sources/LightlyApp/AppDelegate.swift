@@ -12,12 +12,21 @@ final class AppDelegate: NSObject, NSApplicationDelegate {
             updaterDelegate: nil,
             userDriverDelegate: nil
         )
+        setupApplicationIcon()
         setupMainMenu()
 
         let controller = EditorWindowController()
         editorWindowController = controller
         controller.showWindow(nil)
         NSApp.activate(ignoringOtherApps: true)
+    }
+
+    private func setupApplicationIcon() {
+        guard let logoURL = Bundle.module.url(forResource: "LightlyLogo", withExtension: "png"),
+              let logo = NSImage(contentsOf: logoURL) else {
+            return
+        }
+        NSApp.applicationIconImage = logo
     }
 
     /// Flush any unsaved text before the app exits.

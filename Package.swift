@@ -13,7 +13,10 @@ let package = Package(
             dependencies: [
                 .product(name: "Sparkle", package: "Sparkle"),
             ],
-            path: "Sources/LightlyApp"
+            path: "Sources/LightlyApp",
+            resources: [
+                .copy("Resources")
+            ]
         ),
     ]
 )
