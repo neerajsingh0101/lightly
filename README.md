@@ -4,7 +4,7 @@ A dead-simple scratchpad for macOS. One file, one window, no ceremony.
 
 <p align="center">
   <a href="https://github.com/neerajsingh0101/lightly/releases/latest/download/lightly-macos.dmg">
-    <img src="https://img.shields.io/badge/Download%20Lightly-macOS-111111?logo=apple&logoColor=white" alt="Download Lightly for macOS" height="40" />
+    <img src="./docs/assets/macos-badge.png" alt="Download Lightly for macOS" width="180" />
   </a>
 </p>
 
